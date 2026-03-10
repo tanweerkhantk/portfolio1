@@ -363,7 +363,7 @@ img.img-fluid.rounded:hover{
 }
 
 label{
-    color: #000000 !important;
+    color: #000000;
 }
 
 .skills-container{
@@ -613,6 +613,10 @@ body.dark-mode .navbar{
 }
 
 body.dark-mode .section{
+    color: white !important;
+}
+
+body.dark-mode .skill{
     color: white;
 }
 
