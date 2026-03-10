@@ -354,6 +354,10 @@ img.img-fluid.rounded:hover{
     margin-bottom: 20px;
 }
 
+label{
+    color: #000000 !important;
+}
+
 .skills-container{
     display: flex;
     justify-content: center;
@@ -608,3 +612,4 @@ body.dark-mode .contact{
     background: #222;
     color: white;
 }
+
