@@ -591,7 +591,15 @@ body.light-mode{
 }
 
 body.light-mode .navbar{
-    background: linear-gradient(45deg, #667eea,#764ba2);
+    background: linear-gradient(135deg, #4b6af1, #da527b,#e24fff);
+    background-size: 300% 300%;
+    animation: nav 8s infinite;
+}
+
+@keyframes nav {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
 }
 
 body.light-mode .section{
