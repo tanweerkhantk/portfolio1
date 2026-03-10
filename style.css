@@ -48,6 +48,14 @@ body{
     100%{background-position: 0% 50%;}
 }
 
+/* .navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+} */
+
 .navbar a{
     color: white !important;
 }
